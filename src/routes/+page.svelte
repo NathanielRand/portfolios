@@ -254,7 +254,7 @@
 			</div>
 		</div>
 	</div>
-	<p class="text-center pt-28 md:pt-72 text-5xl font-thin text-black opacity-50">The End</p>
+	<p class="text-center pt-14 md:pt-72 text-5xl font-thin text-black opacity-40">The End</p>
 </section>
 
 <style>
