@@ -4,22 +4,21 @@
 	
 	// Global colors
 	let background_color = "[#c4c4c4]";
-	let text_color = "[#4e4e4e]";
 </script>
 
 <Navbar class="bg-{background_color} fixed w-full z-20 top-0 start-0">
 	<NavBrand href="/">
-		<span class="text-neumorphism self-center whitespace-nowrap text-8xl font-black uppercase">Rand</span>
+		<span class="text-neumorphism self-center whitespace-nowrap text-6xl xl:text-8xl font-black uppercase subpixel-antialiased">Rand</span>
 	</NavBrand>
 	<div class="flex md:order-2">
-		<a href="/#contact" class="px-10 py-3 text-2xl font-black uppercase text-white bg-{background_color} hidden md:flex neumorphism">Contact</a>
-		<NavHamburger class="text-{text_color}"/>
+		<a href="/#contact" class="px-4 py-3 text-3xl xl:text-4xl tracking-wider font-black uppercase text-white bg-{background_color} hidden md:flex neumorphism">Contact</a>
+		<NavHamburger class="text-black"/>
 	</div>
 	<NavUl class="order-1 uppercase">
-		<Button href="/#contact" size="lg" class="mb-4 text-3xl text-{text_color} font-thin bg-{background_color} md:hidden uppercase">Contact</Button>
-		<NavLi href="/#about" class="text-3xl font-thin text-{text_color}">About</NavLi>
-		<NavLi href="/#work" class="text-3xl font-thin text-{text_color}">Work</NavLi>
-		<NavLi href="/#testimonials" class="text-3xl font-thin text-{text_color}">Testimonials</NavLi>
+		<Button href="/#contact" size="lg" class="mb-4 text-4xl text-black font-thin bg-{background_color} md:hidden uppercase">Contact</Button>
+		<NavLi href="/#about" class="text-4xl md:text-3xl xl:text-5xl font-thin text-black/60 subpixel-antialiased">About</NavLi>
+		<NavLi href="/#work" class="text-4xl md:text-3xl xl:text-5xl font-thin text-black/60 subpixel-antialiased">Work</NavLi>
+		<NavLi href="/#testimonials" class="text-4xl md:text-3xl xl:text-5xl font-thin text-black/60 subpixel-antialiased">Testimonials</NavLi>
 	</NavUl>
 </Navbar>
 

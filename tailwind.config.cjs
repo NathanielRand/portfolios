@@ -9,7 +9,7 @@ const config = {
 	theme: {
 		extend: {
 			colors: {
-				// ATTN NJR: Intentionally commented out to avoid conflicts with individual theme color schemes if using the multi-theme approach
+				// ATTN DEV: Intentionally commented out to avoid conflicts with individual theme color schemes if using the multi-theme approach
 				// flowbite-svelte 
 				// primary: {
 				// 	50: '#FFF5F2',
@@ -23,6 +23,9 @@ const config = {
 				// 	800: '#CC4522',
 				// 	900: '#A5371B'
 				// }
+			},
+			fontFamily: {				
+				outfit: ['Kodchasan', 'sans-serif'],
 			}
 	  	}
 	}
