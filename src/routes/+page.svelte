@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Nathaniel Rand | Developer </title>
+    <title>Nathaniel Rand | Software Developer </title>
     <meta name="description" content="Explore the portfolio of Nathaniel Rand, a seasoned full-stack web developer and database engineer based in Charleston, South Carolina. With a decade of hands-on experience, Nathaniel delivers innovative solutions at the intersection of technology and user experience." />
     <meta name="keywords" content="nathaniel, rand, Nathaniel Rand, remote software developer, Charleston software developer, Full stack web developer, Database engineer, Charleston, South Carolina, Experienced developer, Web development portfolio, Technology solutions, Innovative programming, User-centric design" />
 </svelte:head>
